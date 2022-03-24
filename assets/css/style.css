@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Luckiest+Guy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Luckiest Guy', sans serif;
+}
+
+main {
+    /* background-color: aqua; */
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+}
+
+h1 {
+    color: green;
+    -webkit-text-stroke: 1px orange;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#game-area {
+    margin: 0 auto;
+}
+
+.ball {
+    font-family: 'lato', sans-serif;
+    margin: 5px;
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+    background-color: green;
+    border: 3px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    color: azure;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
