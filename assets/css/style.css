@@ -33,15 +33,22 @@ h1 {
 }
 
 .ball {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'lato', sans-serif;
     margin: 5px;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     background-color: green;
     border: 3px solid orange;
     border-radius: 50%;
     text-align: center;
-    color: azure;
+    color: white;
+}
+
+.ball-hidden {
+    visibility: hidden;
 }
 
 .row {
